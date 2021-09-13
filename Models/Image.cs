@@ -7,12 +7,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.ComponentModel;
+using System.Web;
+
 namespace UploadImageMVC.Models
 {
     public partial class Image
     {
         public int ImageID { get; set; }
         public string Title { get; set; }
+        [DisplayName("Image Path")]
         public string ImagePath { get; set; }
+        public HttpPostedFileBase ImageFile { get; set; }
     }
 }

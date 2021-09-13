@@ -31,3 +31,6 @@ textarea {
 .btnn a:hover {
     color: #ffffff;
 }
+img, svg {
+    border-radius: 125px;
+}

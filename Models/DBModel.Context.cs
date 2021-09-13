@@ -13,10 +13,10 @@ namespace UploadImageMVC.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DBModels : DbContext
+    public partial class DBModel : DbContext
     {
-        public DBModels()
-            : base("name=DBModels")
+        public DBModel()
+            : base("name=DBModel")
         {
         }
     
